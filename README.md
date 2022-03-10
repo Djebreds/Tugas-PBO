@@ -1,6 +1,6 @@
-# Tugas-Pemrograman Berbasis Object
+# Tugas-Pemrograman Berorientasi Object
 ## Tugas Tugas PBO Semester 2
-- Membuat Form
+- Membuat Form (Menggunakan JFrame)
 - Latihan if bersarang
 - Tugas Kasir
 - Tugas Input (Rekap Nilai Siswa)
