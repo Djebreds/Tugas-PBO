@@ -7,6 +7,7 @@
 - Tugas Kasir
 - Tugas Input (Rekap Nilai Siswa)
 - Tugas Package
+- Tugas ErrorHandling (ArithmetichException dan NullPointerException)
 
 
 
