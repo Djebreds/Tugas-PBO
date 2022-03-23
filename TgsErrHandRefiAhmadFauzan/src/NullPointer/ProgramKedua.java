@@ -14,8 +14,9 @@ package NullPointer;
     TanggalPembuatan : 17 Maret - 2022
     Deskripsi :
     Tugas Exception Hadling
-    Membuat program sederhana kalkulator (menggunakan NullPointerException).
+    Membuat program film bioskop (menggunakan NullPointerException).
     Program tetap berjalan meski parameter pada method di set null
+    namun tidak ada peringatan.
 */
 
 public class ProgramKedua {

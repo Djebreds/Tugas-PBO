@@ -33,5 +33,7 @@ public class Main {
         System.out.println("Genre Film  : " + film2.getGenre());
         System.out.println("Harga Tiket : Rp." + film2.getHarga());
         
+     
+        
     }
 }

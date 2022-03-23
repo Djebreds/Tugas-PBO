@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class ProgramPertama {
     public static void main(String []args) {
         Scanner input = new Scanner(System.in);
-        int hasil = 0, angka1, angka2;
+        int hasil, angka1, angka2;
         char operator;
         
         System.out.println("====== KALKULATOR ======");

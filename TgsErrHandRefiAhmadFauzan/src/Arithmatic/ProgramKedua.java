@@ -11,7 +11,7 @@ import java.util.Scanner;
     Deskripsi :
     Tugas Exception Hadling
     Membuat program sederhana kalkulator (menggunakan Arithmatic Exception).
-    program akan tetap berjalan meski pembagian 0 dilakukan oleh user
+    program akan tetap dilanjutkan meski pembagian 0 dilakukan oleh user
 */
 
 
@@ -39,6 +39,7 @@ public class ProgramKedua {
         System.out.print(">  ");
         operator = input.next().charAt(0);
         
+        // menggunakan exception ArithmeticException
         try {
             switch (operator) {
                 case '+' -> {
