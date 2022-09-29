@@ -51,7 +51,7 @@ public class Inheritance {
         
     }
     private static class A {
-        int x, y;
+         int x, y;
         
         void tampilkanNilaiXY() {
             System.out.println("Nilai x : " + x + ", y : " + y);

@@ -88,6 +88,11 @@ public class Menu extends javax.swing.JFrame {
         jMenu5.setText("Enkapsulasi");
 
         menuItemEnkap.setText("Contoh Enkapsulasi");
+        menuItemEnkap.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemEnkapActionPerformed(evt);
+            }
+        });
         jMenu5.add(menuItemEnkap);
 
         jMenuBar1.add(jMenu5);
@@ -110,6 +115,9 @@ public class Menu extends javax.swing.JFrame {
 
     private void menuItemInheritActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemInheritActionPerformed
         // TODO add your handling code here:
+        PersegiPanjang persegi = new PersegiPanjang();
+        panel.add(persegi);
+        persegi.show();
     }//GEN-LAST:event_menuItemInheritActionPerformed
 
     private void menuItemPolimorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPolimorActionPerformed
@@ -118,6 +126,10 @@ public class Menu extends javax.swing.JFrame {
         panel.add(balok);
         balok.show();
     }//GEN-LAST:event_menuItemPolimorActionPerformed
+
+    private void menuItemEnkapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemEnkapActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuItemEnkapActionPerformed
 
     /**
      * @param args the command line arguments

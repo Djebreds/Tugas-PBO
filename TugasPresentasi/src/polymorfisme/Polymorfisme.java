@@ -44,6 +44,7 @@ class SegiTiga extends Bentuk {
         this.lebar = lebar;
     }
     
+    @Override
     public String getBentuk() {
         return "Bentuk SegiTiga";
     }
