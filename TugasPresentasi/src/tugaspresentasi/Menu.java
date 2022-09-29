@@ -4,6 +4,8 @@
  */
 package tugaspresentasi;
 
+import encapsulasi.Karyawan;
+
 /**
  *
  * @author refiahmadfauzan
@@ -129,6 +131,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void menuItemEnkapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemEnkapActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_menuItemEnkapActionPerformed
 
     /**

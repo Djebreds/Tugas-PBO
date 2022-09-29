@@ -61,6 +61,8 @@ public class Polymorfisme {
         SegiTiga st = new SegiTiga(5,10);
         SegiTiga st1 = new SegiTiga(5,10);
         
+        Bentuk bt = new BujurSangkar(10,2);
+       
         cetakLuasBentuk(bs);
         cetakLuasBentuk(bs1);
         cetakLuasBentuk(st);

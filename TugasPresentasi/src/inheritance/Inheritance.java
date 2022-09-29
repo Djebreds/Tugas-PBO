@@ -52,13 +52,14 @@ public class Inheritance {
     }
     private static class A {
          int x, y;
-        
+              
         void tampilkanNilaiXY() {
             System.out.println("Nilai x : " + x + ", y : " + y);
         }
     }
     private static class B extends A {
         int z;
+        int b;
         
         void tampilkanJumlah() {
             System.out.println("Jumlah : " + (x+y+z) );

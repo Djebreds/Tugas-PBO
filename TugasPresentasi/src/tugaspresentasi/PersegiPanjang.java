@@ -64,7 +64,7 @@ public class PersegiPanjang extends javax.swing.JInternalFrame {
 
         jLabel4.setText("Masukan pilihan");
 
-        inputPilihan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        inputPilihan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Luas", "Keliling" }));
         inputPilihan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputPilihanActionPerformed(evt);
